@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "ec.com.edifarm.reoenmersneutrofer"
+    versionCode = "10"
+    version     = "1.1.1" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Neutrofer</name>
+
+  <description>
+      Hierro Quelato Glicinato + Ácido Fólico
+  </description>
+
+  <author href="https://www.edifarm.com.ec" email="fmoyota@edifarm.com.ec">
+      Fernando Moyota - Edifarm
+  </author>
+
+	<platform name="ios" />
+<platform name="android" />
+	
+	<!-- icon iOS -->
+	<!-- iPhone 6 / 6+ -->
+<icon src="images/icon/iOS/icon-180.png" platform="ios" width="180" height="180" />
+
+<!-- iPhone / iPod Touch  -->
+<icon src="images/icon/iOS/icon-60.png" platform="ios" width="60" height="60" />
+<icon src="images/icon/iOS/icon-120.png" platform="ios" width="120" height="120" />
+
+<!-- iPad -->
+<icon src="images/icon/iOS/icon-76.png" platform="ios" width="76" height="76" />
+<icon src="images/icon/iOS/icon-152.png" platform="ios" width="152" height="152" />
+<icon src="images/icon/iOS/icon-167.png" platform="ios" width="167" height="167" />
+
+<!-- Settings Icon -->
+<icon src="images/icon/iOS/icon-29.png" platform="ios" width="29" height="29" />
+<icon src="images/icon/iOS/icon-58.png" platform="ios" width="58" height="58" />
+<icon src="images/icon/iOS/icon-87.png" platform="ios" width="87" height="87" />
+
+<!-- Spotlight Icon -->
+<icon src="images/icon/iOS/icon-40.png" platform="ios" width="40" height="40" />
+<icon src="images/icon/iOS/icon-80.png" platform="ios" width="80" height="80" />
+<icon src="images/icon/iOS/icon-120.png" platform="ios" width="120" height="120" />
+
+<!-- iPhone / iPod Touch -->
+<icon src="images/icon/iOS/icon-57.png" platform="ios" width="57" height="57" />
+<icon src="images/icon/iOS/icon-114.png" platform="ios" width="114" height="114" />
+
+<!-- iPad -->
+<icon src="images/icon/iOS/icon-72.png" platform="ios" width="72" height="72" />
+<icon src="images/icon/iOS/icon-144.png" platform="ios" width="144" height="144" />
+
+<!-- iPhone Spotlight and Settings Icon -->
+<icon src="images/icon/iOS/icon-29.png" platform="ios" width="29" height="29" />
+<icon src="images/icon/iOS/icon-58.png" platform="ios" width="58" height="58" />
+
+<!-- iPad Spotlight and Settings Icon -->
+<icon src="images/icon/iOS/icon-50.png" platform="ios" width="50" height="50" />
+<icon src="images/icon/iOS/icon-100.png" platform="ios" width="100" height="100" />
+	
+	
+	<!-- icon Android -->
+<!--	<icon src="images/icon/Android/neutrofer-ldpi.png" platform="android" qualifier="ldpi" /> -->
+<icon src="images/icon/Android/neutrofer-mdpi.png" platform="android" qualifier="mdpi" />
+<icon src="images/icon/Android/neutrofer-hdpi.png" platform="android" qualifier="hdpi" />
+<icon src="images/icon/Android/neutrofer-xhdpi.png" platform="android" qualifier="xhdpi" />
+<icon src="images/icon/Android/neutrofer-xxhdpi.png" platform="android" qualifier="xxhdpi" />
+<icon src="images/icon/Android/neutrofer-xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+<!-- <icon src="images/icon/Android/neutrofer-fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" /> -->
+	
+
+<!-- Splash iOS -->
+	<!-- iPhone and iPod touch -->
+<splash src="images/icon/iOS/Splash_iphone-320x480.png" platform="ios" width="320" height="480" />
+<splash src="images/icon/iOS/Splash_iphone_640x960.png" platform="ios" width="640" height="960" />
+
+<!-- iPhone 5 / iPod Touch (5th Generation) -->
+<splash src="images/icon/iOS/Splash-568h@2x_iphone_640x1136.png" platform="ios" width="640" height="1136" />
+
+<!-- iPhone 6 -->
+<splash src="images/icon/iOS/Splash-750@2x_iphone6-portrait_750x1334.png" platform="ios" width="750" height="1334" />
+<splash src="images/icon/iOS/Splash-1242@3x_iphone6s-portrait_1242x2208.png" platform="ios" width="1242" height="2208" />
+<splash src="images/icon/iOS/Splash-1242@3x_iphone6s-landscape_2208x1242.png" platform="ios" width="2208" height="1242" />
+
+<!-- iPad -->
+<splash src="images/icon/iOS/Splash-Portrait_ipad_768x1024.png" platform="ios" width="768" height="1024" />
+<splash src="images/icon/iOS/Splash-Landscape_ipad_1024x748.png" platform="ios" width="1024" height="768" />
+
+<!-- Retina iPad -->
+<splash src="images/icon/iOS/Splash-Portrait@2x_ipad_1536x2048.png" platform="ios" width="1536" height="2048" />
+<splash src="images/icon/iOS/Splash-Landscape@2x_ipad_2048x1536.png" platform="ios" width="2048" height="1536" />
+	
+	<!-- Splash Android-->
+<splash src="images/icon/Android/splash-ldpi.png" platform="android" qualifier="ldpi" />
+<splash src="images/icon/Android/splash-mdpi.png" platform="android" qualifier="mdpi" />
+<splash src="images/icon/Android/splash-hdpi.png" platform="android" qualifier="hdpi" />
+<splash src="images/icon/Android/splash-xhdpi.png" platform="android" qualifier="xhdpi" />
+<splash src="images/icon/Android/splash-xxhdpi.png" platform="android" qualifier="port-xxhdpi" />
+<splash src="images/icon/Android/splash-land-xxhdpi.png" platform="android" qualifier="land-xxhdpi" />
+<splash src="images/icon/Android/splash-xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+	
+	
+	
+	
+	
+  <!-- all platforms -->
+  <preference name="phonegap-version" value="cli-8.0.0" />
+  <preference name="orientation" value="landscape" />
+  <preference name="fullscreen" value="true" />
+
+  <!-- iOS only -->
+  <preference name="target-device" value="universal" />
+  <preference name="prerendered-icon" value="true" />
+  <preference name="detect-data-types" value="true" />
+  <preference name="exit-on-suspend" value="true" />
+  <preference name="deployment-target" value="7.0" />
+
+  <!-- Android only -->
+  <preference name="android-build-tool" value="ant|gradle" />
+  <preference name="android-minSdkVersion" value="16" />
+  <preference name="android-maxSdkVersion" value="26" />
+  <preference name="android-targetSdkVersion" value="16" />
+  <preference name="android-installLocation" value="auto" />
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+
+	
+	
+	
+	<plugin name="cordova-plugin-whitelist" />
+	
+	
+</widget>
